@@ -16,21 +16,7 @@ Logistic-regression models that identify users at risk of churning, predict whic
 
 ```
 ├── notebook.ipynb       # Full analysis — EDA, modeling, evaluation, business recommendations
-├── requirements.txt     # Python dependencies
-├── .gitignore
 └── README.md
-```
-
-## Quick Start
-
-```bash
-# Clone and install
-git clone https://github.com/ZacWoo/spotify-churn-propensity-modeling.git
-cd spotify-churn-propensity-modeling
-pip install -r requirements.txt
-
-# Open the notebook
-jupyter notebook notebook.ipynb
 ```
 
 Kaggle credentials are required for the dataset download — see [kagglehub docs](https://github.com/Kaggle/kagglehub#authenticate).
