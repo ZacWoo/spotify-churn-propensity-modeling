@@ -10,7 +10,6 @@ Logistic-regression models that identify users at risk of churning, predict whic
 | 2 | **Which free users are likely to subscribe?** | `ad_conversion_to_subscription` — 1 if a Free-tier user converted after an ad interaction |
 | 3 | **Which premium users are at risk of canceling?** | `subscription_status == "Inactive"` among paid-plan users |
 
-> **Note:** This dataset does not contain true churn labels with timestamps. The targets above are transparent proxy labels derived from available behavioral flags. See the notebook for full documentation of the logic and caveats.
 
 ## Project Structure
 
@@ -18,8 +17,6 @@ Logistic-regression models that identify users at risk of churning, predict whic
 ├── notebook.ipynb       # Full analysis — EDA, modeling, evaluation, business recommendations
 └── README.md
 ```
-
-Kaggle credentials are required for the dataset download — see [kagglehub docs](https://github.com/Kaggle/kagglehub#authenticate).
 
 ## Methodology
 
